@@ -97,7 +97,7 @@ body {
 .reveal video,
 .reveal iframe {
   max-width: 95%;
-  max-height: 95%; }
+  max-height: 80%; }
 
 .reveal strong,
 .reveal b {
@@ -252,6 +252,9 @@ body {
 .reveal section img.plain {
   border: 0;
   box-shadow: none; }
+
+.reveal section img.fit {
+  height: 70vh; }
 
 .reveal a img {
   -webkit-transition: all 0.15s linear;
