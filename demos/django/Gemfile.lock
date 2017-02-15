@@ -1,0 +1,46 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    addressable (2.5.0)
+      public_suffix (~> 2.0, >= 2.0.2)
+    contentful (1.2.2)
+      http (> 0.8, < 3.0)
+      multi_json (~> 1)
+    contentful-management (1.5.0)
+      http (~> 1.0)
+      json (~> 1.8)
+      multi_json (~> 1)
+    contentful_bootstrap (3.5.0)
+      contentful (> 0, < 3)
+      contentful-management (~> 1.0)
+      inifile
+      launchy
+    domain_name (0.5.20161129)
+      unf (>= 0.0.5, < 1.0.0)
+    http (1.0.4)
+      addressable (~> 2.3)
+      http-cookie (~> 1.0)
+      http-form_data (~> 1.0.1)
+      http_parser.rb (~> 0.6.0)
+    http-cookie (1.0.3)
+      domain_name (~> 0.5)
+    http-form_data (1.0.1)
+    http_parser.rb (0.6.0)
+    inifile (3.0.0)
+    json (1.8.6)
+    launchy (2.4.3)
+      addressable (~> 2.3)
+    multi_json (1.12.1)
+    public_suffix (2.0.5)
+    unf (0.1.4)
+      unf_ext
+    unf_ext (0.0.7.2)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  contentful_bootstrap (~> 3.0)
+
+BUNDLED WITH
+   1.14.3
